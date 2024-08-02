@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ava fin test</string>
+    <string name="common_error_connect_title">Sin conexión</string>
+    <string name="common_error_connect">Verifique que su dispositivo tenga conexión a internet</string>
+
+    <string name="message_no_task_yet">Aún no hay tareas registradas</string>
+
+    <string name="common_error_field_empty">Este dato es requerido.</string>
+</resources>
