@@ -2,8 +2,8 @@
 
 This application was develop with SOLID and Clean Architecture fundamentals, to create a form dynamically, from data obtained from a service which brings the validations that the text fields must contain and validates the functioning of the form as a whole.(sorry for my bad english)
 
-[![Generic badge](https://img.shields.io/badge/version-1.0.0-green.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/actualización-01/08/2024-orange.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/version-1.0.1-green.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/actualización-13/08/2024-orange.svg)](https://shields.io/)
 
 ## Prerequisites for the development
 

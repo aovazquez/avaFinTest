@@ -10,8 +10,5 @@
 
     <color name="medium_gray">#bababa</color>
 
-    <color name="title_list_main">#0A4AA3</color>
-
-    <color name="red">#F44336</color>
     <color name="dark_gray">#414142</color>
 </resources>

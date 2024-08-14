@@ -22,7 +22,8 @@
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="fullSensor"
-            android:theme="@style/Theme.TechnicalTest">
+            android:theme="@style/Theme.TechnicalTest"
+            tools:ignore="DiscouragedApi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -30,11 +30,7 @@ class MainViewModel @Inject constructor(
             val result = getFieldsDataUseCase()
             when ( result ) {
                 is ResultWrapper.GenericError -> {
-                    if ( result.error?.message == "HTTP 401 Unauthorized" ) {
-                        getFieldsDataUiState.value = UiState.Failure(result.errorBody?.message)
-                    } else {
-                        getFieldsDataUiState.value = UiState.Failure(result.errorBody?.message)
-                    }
+                    getFieldsDataUiState.value = UiState.Failure(result.errorBody?.message)
                 }
                 is ResultWrapper.NetworkError -> {
                     getFieldsDataUiState.value = UiState.Failure("Network Error")

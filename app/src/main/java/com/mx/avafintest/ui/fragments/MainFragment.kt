@@ -82,7 +82,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
             )
-            text = "Check form"
+            text = context.getString(R.string.check_form)
             isAllCaps = false
             setBackgroundColor(ContextCompat.getColor(context, R.color.teal_700))
             setTextColor(ContextCompat.getColor(context, R.color.white))
@@ -98,7 +98,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
      * Method for verifying that the form is correctly filled in
      */
     private fun validateForm() = with(bindingView) {
-        var isValidForm: Boolean = true
+        var isValidForm = true
         for (i in 0 until llFormContainer.childCount) {
             val view: View = llFormContainer.getChildAt(i)
             when (view) {
@@ -107,7 +107,6 @@ class MainFragment : Fragment(R.layout.fragment_main) {
                         isValidForm = false
                         break
                     }
-                    // println("EditText content: ${view.isValidData()} - ${view.getContent()}")
                 }
             }
         }
